@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  margin: auto;
+  margin-top: 50px;
+  width: 30%;
+  border: 3px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+}
+
+td,th {
+  text-align: left;
+  border: 1px solid;
+}

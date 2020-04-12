@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  margin: auto;
+  margin-top: 50px;
+  width: 30%;
+  border: 3px solid;
+  padding: 10px;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+form * {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0 0 0;
+}

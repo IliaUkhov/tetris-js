@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Javascript Tetris</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <form action="javascript:go()">
+        <label>Enter username<br>
+          <input id="input" placeholder="Username"/>
+        </label>
+        <button onclick="go()">Go</button>
+      </form>
+    </div>
+    <script>
+      function go() {
+        var input = document.getElementById('input');
+        localStorage["tetris.username"] = input.value;
+        window.location.href = "/game";
+      }
+    </script>
+  </body>
+</html>
